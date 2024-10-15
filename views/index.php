@@ -6,6 +6,6 @@
     <title>Pagina principal</title>
 </head>
 <body>
-    <h1>Aca va el Menu</h1>
+    <h1>Hola mundo</h1>
 </body>
 </html>
