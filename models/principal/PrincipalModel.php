@@ -1,16 +1,20 @@
 <?php
-class PrincipalModel extends Conexion{
+class PrincipalModel extends Query{
 
-    private $con;
+
     public function __construct() {
-        $this-> con = new Conexion();
+        parent :: __construct();
     }
 
-    public function getprueba(){
-        $data = $this -> con -> conectar();
-
-        return $data;
+    //recuperar los sliders
+    public function getSliders(){
+       return $this -> selectAll("SELECT * FROM  slider");
     }
+
+    //recuperar los lugares
+    public function getlugares(){
+       return $this -> selectAll("SELECT * FROM  lugares");
+    }   
 }
 
 ?>

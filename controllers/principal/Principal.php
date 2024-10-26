@@ -1,19 +1,26 @@
 <?php
-class Principal extends Controller{
+class Principal extends Controller
+{
 
-    public function __construct(){
-        parent :: __construct();
+    public function __construct()
+    {
+        parent::__construct();
     }
 
 
-    public function index(){
+    public function index()
+    {
+        $data['title'] = ' Página principal';
+        //TRAER SLIDERS
+        $data['sliders'] = $this->model->getSliders();
 
-        $data = $this -> model -> getprueba();
-        print_r($data);
-       // $this -> views -> getView('principal' , 'index', $data);
+        //TRAER LUGARES
+        $data['lugares'] = $this->model->getlugares();
+
+
+        $this->views->getView('index', $data);
     }
+
 
 
 }
-
-?>
