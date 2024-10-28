@@ -185,7 +185,7 @@
 										</li>
 									</ul>
 									<span class="price">Precio $50.6 la noche</span>
-									<a href="book-table.html" class="default-btn">
+									<a href="<?php echo RUTA_PRINCIPAL . 'finca'; ?>" class="default-btn">
 										Ver
 										<i class="flaticon-right"></i>
 									</a>
@@ -217,7 +217,7 @@
 										</li>
 									</ul>
 									<span class="price">Detalles</span>
-									<a href="book-table.html" class="default-btn">
+									<a href="<?php echo RUTA_PRINCIPAL . 'sahara'; ?>" class="default-btn">
 										Ver
 										<i class="flaticon-right"></i>
 									</a>
@@ -249,7 +249,7 @@
 										</li>
 									</ul>
 									<span class="price">Detalle</span>
-									<a href="book-table.html" class="default-btn">
+									<a href="<?php echo RUTA_PRINCIPAL . 'Terraza'; ?>" class="default-btn">
 										ver
 										<i class="flaticon-right"></i>
 									</a>
@@ -281,7 +281,7 @@
 										</li>
 									</ul>
 									<span class="price">Detalles</span>
-									<a href="book-table.html" class="default-btn">
+									<a href="<?php echo RUTA_PRINCIPAL . 'RCanto'; ?>" class="default-btn">
 										Ver
 										<i class="flaticon-right"></i>
 									</a>
@@ -313,7 +313,7 @@
 										</li>
 									</ul>
 									<span class="price">Detalle</span>
-									<a href="book-table.html" class="default-btn">
+									<a href="<?php echo RUTA_PRINCIPAL . 'jardin'; ?>" class="default-btn">
 										Ver
 										<i class="flaticon-right"></i>
 									</a>
@@ -345,7 +345,7 @@
 										</li>
 									</ul>
 									<span class="price">Detalle</span>
-									<a href="<?php echo RUTA_PRINCIPAL . 'lugar'; ?>" class="default-btn">
+									<a href="<?php echo RUTA_PRINCIPAL . 'hotel'; ?>" class="default-btn">
 										Ver
 										<i class="flaticon-right"></i>
 									</a>

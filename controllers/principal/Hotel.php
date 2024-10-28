@@ -1,5 +1,5 @@
 <?php
-class Lugar extends Controller{
+class Hotel extends Controller{
 
     public function __construct(){
         parent :: __construct();
@@ -7,8 +7,8 @@ class Lugar extends Controller{
 
 
     public function index(){
-        $data ['title'] = ' Lugares';
-        $data ['subtitle'] = 'Las mejores vistas para hacer tus eventos';
+        $data ['title'] = ' Hotel Mediterraneo';
+        $data ['subtitle'] = '';
 
     $this -> views -> getView('principal/lugar/Hotelmedi' , $data);
     }
