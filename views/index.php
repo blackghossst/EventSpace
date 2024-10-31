@@ -184,7 +184,7 @@
 											<i class="bx bxs-star"></i>
 										</li>
 									</ul>
-									<span class="price">Precio $50.6 la noche</span>
+									<span class="price">Detalles	</span>
 									<a href="<?php echo RUTA_PRINCIPAL . 'finca'; ?>" class="default-btn">
 										Ver
 										<i class="flaticon-right"></i>
@@ -289,38 +289,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 col-sm-6">
-						<div class="single-rooms-three-wrap">
-							<div class="single-rooms-three">
-							<img src="<?php echo RUTA_PRINCIPAL . 'assets/img'; ?>/lugares/img5.jpg" alt="Image">
-								<div class="single-rooms-three-content">
-									<h3>Jardín Romántico</h3>
-									<ul class="rating">
-										<li>
-											<i class="bx bxs-star"></i>
-										</li>
-										<li>
-											<i class="bx bxs-star"></i>
-										</li>
-										<li>
-											<i class="bx bxs-star"></i>
-										</li>
-										<li>
-											<i class="bx bxs-star"></i>
-										</li>
-										<li>
-											<i class="bx bxs-star"></i>
-										</li>
-									</ul>
-									<span class="price">Detalle</span>
-									<a href="<?php echo RUTA_PRINCIPAL . 'jardin'; ?>" class="default-btn">
-										Ver
-										<i class="flaticon-right"></i>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
+
 					<div class="col-lg-4 col-sm-6">
 						<div class="single-rooms-three-wrap">
 							<div class="single-rooms-three">

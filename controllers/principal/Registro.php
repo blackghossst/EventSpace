@@ -5,7 +5,6 @@ class Registro extends Controller{
         parent :: __construct();
     }
 
-
     public function index(){
 
         $data ['title'] = ' Registro';
@@ -13,10 +12,17 @@ class Registro extends Controller{
     $this -> views -> getView('principal/registro' , $data);
     }
 
-
     public function crear(){
-        print_r($_POST);
+        $nombre = strClean($_POST['nombre']);
+        $usuario = strClean($_POST['usuario']);
+        $correo = strClean($_POST['correo']);
+        $clave = strClean($_POST['contraseña']);
+        $confirmar = strClean($_POST['confirmar']);
+        $hash = password_hash($clave, PASSWORD_DEFAULT);
+        $rol = 2;
+        $this->model->registrarse($nombre, $usuario, $correo, $hash, $rol);
     }
 }
 
+?>
 ?>
